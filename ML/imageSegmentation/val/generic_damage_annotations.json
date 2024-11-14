@@ -1,0 +1,51 @@
+{
+    "annotations": [
+        {
+            "area": 0,  // Replace with the calculated area of damage
+            "bbox": [0, 0, 0, 0],  // Replace with [x, y, width, height] for each damage area
+            "category_id": 1,
+            "id": 0,
+            "image_id": 0,
+            "iscrowd": 0,
+            "segmentation": [
+                [
+                    // Replace with x, y coordinates outlining the damaged area (e.g., [x1, y1, x2, y2, ...])
+                ]
+            ]
+        }
+    ],
+    "images": [
+        {
+            "coco_url": "",
+            "date_captured": "2024-11-03 12:00:00",
+            "file_name": "damaged_car_image.jpg",  // Replace with your image filename
+            "flickr_url": "",
+            "height": 1024,  // Replace with actual image height
+            "id": 0,
+            "license": 1,
+            "width": 1024  // Replace with actual image width
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "damage",
+            "supercategory": "part"
+        }
+    ],
+    "info": {
+        "contributor": "YourName",
+        "date_created": "2024-11-03",
+        "description": "Generic damaged car dataset",
+        "url": "",
+        "version": "1.0",
+        "year": 2024
+    },
+    "licenses": [
+        {
+            "id": 1,
+            "name": "Attribution-NonCommercial-ShareAlike License",
+            "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/"
+        }
+    ]
+}
